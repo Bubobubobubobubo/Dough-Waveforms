@@ -3,7 +3,7 @@ import json
 
 def generate_json():
     data = {
-        "_base": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Waveforms/main/"
+        "_base": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Waveforms/main/samples/"
     }
     
     # Iterate through each directory in the current folder
