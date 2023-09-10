@@ -3,11 +3,11 @@ import json
 
 def generate_json():
     data = {
-        "_base": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Waveforms/main/samples/"
+        "_base": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Waveforms/main/"
     }
     
     # Iterate through each directory in the current folder
-    for dir_name, _, file_list in os.walk('./samples'):
+    for dir_name, _, file_list in os.walk('.'):
         if dir_name == '.' or dir_name.startswith('./.'):
             continue
         dir_name = dir_name[2:]  # Remove the './' from the directory name
